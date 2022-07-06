@@ -51,13 +51,22 @@ I hope I have fulfilled them to your standards.
 
             web_object = requests.get(str(link))
     
-    g)  Assigned a compound assignment operator to the time_lapse variable in order to get the sum of the response time
+    g)  Assigned a compound assignment operator to the time_lapse variable in order to get the sum of the total seconds for the time elapsed
     
         time_lapse += web_object.elapsed.total_seconds()
         
-     h) 
-     i)
-     j) 
+     h) Added a print function that prints the websites response time
+        
+        print("Website response time: " + str(time_lapse) + " seconds")
+        
+     i) Added a print function that prints the functions response time
+        
+        print(f"Function response time: {end - start:0.6f} seconds")
+        
+     j) Call tthe funtion with environment variables from the os library
+        
+        
+        
 
 4)  **Question 4**
 

@@ -1,4 +1,7 @@
 # Autum-Leaf-Assesment
 
-Hier doe n ek goed
-https://github.com/EtienneHenn/Autum-Leaf-Assesment/blob/main/answer1.py
+Hello viewer :)
+
+I hope you are having a great day.
+
+Thank you for allowing me to complete this assessment. It was a lot of fun taking on these tasks you supplied me. I hope that I have completed them to your standards. 

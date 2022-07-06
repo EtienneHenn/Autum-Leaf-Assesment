@@ -3,5 +3,5 @@ def inc(x):
 
 
 def test_answer():
-    # Changed the number value of inc() from 3 to 4 inorder for the function to succeed
+    # Changed the value of inc() from 3 to 4 in order for the function to succeed.
     assert inc(4) == 5

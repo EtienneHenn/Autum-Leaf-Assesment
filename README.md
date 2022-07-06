@@ -25,9 +25,9 @@ I hope I have fulfilled them to your standards.
 
     a)  Created a python script named response_time.py
     
-    *import requests
-    *import time
-    *import os
+        *import requests
+        *import time
+        *import os
     
     b)  Imported the following python libraries: request, time, os
     

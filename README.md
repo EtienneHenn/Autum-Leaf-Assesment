@@ -50,6 +50,14 @@ I hope I have fulfilled them to your standards.
         for i in range(int(num)):
 
             web_object = requests.get(str(link))
+    
+    g)  Assigned a compound assignment operator to the time_lapse variable in order to get the sum of the response time
+    
+        time_lapse += web_object.elapsed.total_seconds()
+        
+     h) 
+     i)
+     j) 
 
 4)  **Question 4**
 

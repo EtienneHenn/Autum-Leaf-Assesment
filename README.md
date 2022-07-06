@@ -31,11 +31,11 @@ I hope I have fulfilled them to your standards.
         import time
         import os
         
-    c )  Define a function that takes a int(num) and a str(link) variable
+    c )  Define a function that takes a int(NUM) and a str(URL) variable
     
-        def response_time(num, link):
+        def response_time(NUM, URL):
     
-    d )  Created a float variable called "time_lapse" in order to sum the response time
+    d )  Set a float variable called "time_lapse" in order to sum the total response time
     
         time_lapse = 0.0
     
@@ -47,9 +47,9 @@ I hope I have fulfilled them to your standards.
     
     f )  Created a for loop to iterrate over the request object and assign it to web_object
         
-        for i in range(int(num)):
+        for i in range(int(NUM)):
 
-            web_object = requests.get(str(link))
+            web_object = requests.get(str(URL))
     
     g )  Assigned a compound assignment operator to the time_lapse variable in order to get the sum of the total seconds for the time elapsed
     
@@ -65,10 +65,30 @@ I hope I have fulfilled them to your standards.
         
      j ) Call the funtion with environment variables from the os library
         
-        response_time(os.environ['NUM'], os.environ['url'])
+        response_time(os.environ['NUM'], os.environ['URL'])
         
 
 4)  **Question 4**
+
+    a ) Created an docker file
+        
+        FROM python:latest
+
+        LABEL Maintainer="etienne.henn@gmail.com"
+
+        ENV NUM=10 \
+
+        URL="https://al.co.za"
+
+        WORKDIR /home
+
+        RUN pip install requests
+
+        COPY response_time.py ./
+
+        CMD ["python","./response_time.py"]
+        
+    b ) 
 
 
 5)  

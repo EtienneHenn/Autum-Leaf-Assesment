@@ -16,10 +16,10 @@ I hope I have fulfilled them to your standards.
 
 2)  **Question 2**
 
-    a)  Running question 2 through pytest results in a failure message.
-        Thus, I changed the value of inc() from 3 to 4 in order for the function to succeed and changed the name to answer2.
+    a)  Running question2 through pytest results in a failure message.
+        Thus, I changed the value of inc() from 3 to 4 in order for the function to succeed and saved the file as answer2.
         
-        *Images included as proof
+        **Images included as proof**
 
 3)  **Question 3**
 

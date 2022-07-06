@@ -10,11 +10,14 @@ I hope I have fulfilled them to your standards.
 
 Tasks Handled:
 1)  Question 1
+
     a)The counter variable was not included in the scope of the function.
       Thus, I added the "global counter" to correct this error.
 
 2) Question 2
-    a)Running pytest on question 2 resulted in an 
+
+    a)Running question 2 through pytest results in a failure message.
+      
     
 
 1)  Created a docker file 

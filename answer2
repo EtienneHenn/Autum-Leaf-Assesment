@@ -3,4 +3,5 @@ def inc(x):
 
 
 def test_answer():
+    # changed the value inside of inc() from 3 to 4 to make the test successful
     assert inc(4) == 5

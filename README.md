@@ -25,12 +25,18 @@ I hope I have fulfilled them to your standards.
 
     a)  Created a python script named response_time.py
     
-    b)  Added the following python libraries: request, time, os
+    *import requests
+    *import time
+    *import os
     
-    c)  Created a function that takes a int and a str variables
+    b)  Imported the following python libraries: request, time, os
     
-    d)  Created a flout variable called "time_lapse" in order to add the 
+    c)  Created a function that takes a int and a str variable
     
+    d)  Created a float variable called "time_lapse" in order to sum the response time
+    
+    e)  Included a time method from the time library to record the function time elapsed
+        1)  
 
 4)  **Question 4**
 

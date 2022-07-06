@@ -20,7 +20,10 @@ Tasks Handled:
         Thus, I changed the value of inc() from 3 to 4 inorder for the function to succeed.
         *Images included as proof
 
-3)  
+3)  Question 3
+
+    a)  This things
+    b)  This is some things 
     
 
 1)  Created a docker file 

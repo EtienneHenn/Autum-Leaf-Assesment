@@ -8,7 +8,7 @@ Thank you for allowing me to complete this assessment.
 It was a lot of fun taking on these tasks you supplied.
 I hope I have fulfilled them to your standards. 
 
-**Tasks Handled:**
+*Tasks Handled:*
 1)  Question 1
 
     a)  The counter variable was not included in the scope of the function.

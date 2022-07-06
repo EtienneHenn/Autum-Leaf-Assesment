@@ -42,6 +42,7 @@ I hope I have fulfilled them to your standards.
     e)  Included a time method from the time library to record the functions time elapsed
         
         start = time.time()
+        ***
         end = time.time()
 
 4)  **Question 4**

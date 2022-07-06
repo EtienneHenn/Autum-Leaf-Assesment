@@ -31,12 +31,18 @@ I hope I have fulfilled them to your standards.
         import time
         import os
         
-    c)  Created a function that takes a int and a str variable
+    c)  Define a function that takes a int(num) and a str(link) variable
+    
+        def response_time(num, link):
     
     d)  Created a float variable called "time_lapse" in order to sum the response time
     
-    e)  Included a time method from the time library to record the function time elapsed
-        1)  
+        time_lapse = 0.0
+    
+    e)  Included a time method from the time library to record the functions time elapsed
+        
+        start = time.time()
+        end = time.time()
 
 4)  **Question 4**
 

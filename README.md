@@ -19,7 +19,7 @@ I hope I have fulfilled them to your standards.
     a)  Running question2 through pytest results in a failure message.
         Thus, I changed the value of inc() from 3 to 4 in order for the function to succeed and saved the file as answer2.
         
-**Images included as proof**
+    b)  **Images included as proof**
 
 3)  **Question 3**
 

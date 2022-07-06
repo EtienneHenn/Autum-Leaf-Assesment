@@ -27,9 +27,9 @@ I hope I have fulfilled them to your standards.
     
     b)  Imported the following python libraries: request, time, os
         
-        *import requests
-        *import time
-        *import os
+        import requests
+        import time
+        import os
         
     c)  Created a function that takes a int and a str variable
     

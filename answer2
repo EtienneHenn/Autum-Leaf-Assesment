@@ -1,7 +1,0 @@
-def inc(x):
-    return x + 1
-
-
-def test_answer():
-    # changed the value inside of inc() from 3 to 4 in order for the test to be successful
-    assert inc(4) == 5

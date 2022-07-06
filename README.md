@@ -44,6 +44,12 @@ I hope I have fulfilled them to your standards.
         start = time.time()
         ***
         end = time.time()
+    
+    f)  Created a for loop to iterrate over the request object and assign it to web_object
+        
+        for i in range(int(num)):
+
+            web_object = requests.get(str(link))
 
 4)  **Question 4**
 

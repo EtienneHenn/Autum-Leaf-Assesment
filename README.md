@@ -129,6 +129,22 @@ Vim as an editor
         mkdir git_envirinment
         cd git_envirinment
     
-    b ) Used git to upload to github
+    b ) Initiate git for this folder
+    
+        git init
+        
+    c ) Set up a remote, which tells git where the repository is located
+    
+        git remote add origin https://github.com/EtienneHenn/Autum-Leaf-Assesment.git
+    
+    d ) Add files to git 
+    
+        git add .
+        
+    e ) Commit files to remote repository
+    
+        git commit -m "Initial commit"
+    
+    b ) Pushed the commit
     
         git push -u origin master

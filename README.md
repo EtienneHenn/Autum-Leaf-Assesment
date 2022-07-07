@@ -53,6 +53,8 @@ Vim as an editor
 
     a )  Created a python script named response_time.py
     
+        vim response_time.py
+    
     b )  Imported the following python libraries: request, time, os
         
         import requests
@@ -83,15 +85,15 @@ Vim as an editor
     
         time_lapse += web_object.elapsed.total_seconds()
         
-     h ) Added a print function that prints the websites response time and formated it only display to the 6th
+     h ) Added a print function that prints the websites response time and formated it to display to the 6th desimal
         
         print("Website response time: " + str(time_lapse) + " seconds")
         
-     i ) Added a print function that prints the functions response time and formated it only display to the 6th
+     i ) Added a print function that prints the functions response time and formated it to display to the 6th desimal
         
         print(f"Function response time: {end - start:0.6f} seconds")
         
-     j ) Call the funtion with environment variables from the os library
+     j ) Call the funtion with environment variables from the os library read from the dockerfile
         
         response_time(os.environ['NUM'], os.environ['URL'])
         
@@ -99,6 +101,10 @@ Vim as an editor
 4)  **Question 4**
 
     a ) Created an docker file
+        
+        vim dockerfile
+    
+    b )
         
         FROM python:latest
 

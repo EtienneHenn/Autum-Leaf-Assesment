@@ -87,7 +87,7 @@ Vim as an editor
         
      h ) Added a print function that prints the websites response time and formatted it to display to the 6th decimal
         
-        print("Website response time: " + str("%.6f" %time_lapse) + " seconds")
+        print("Website response time: " + str("%.6f" % time_lapse) + " seconds")
         
      i ) Added a print function that prints the functions response time and formatted it to display to the 6th decimal
         

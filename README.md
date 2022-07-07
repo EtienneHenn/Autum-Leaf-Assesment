@@ -126,4 +126,8 @@ Vim as an editor
     
     a ) Created a git repo
     
+        code
+    
     b )Used git to upload to github
+    
+        code

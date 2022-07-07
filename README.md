@@ -121,9 +121,6 @@ Vim as an editor
         COPY response_time.py ./
 
         CMD ["python","./response_time.py"]
-        
-    b ) 
-
 
 5)  **Question 5**
     

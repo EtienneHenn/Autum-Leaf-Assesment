@@ -145,6 +145,4 @@ Vim as an editor
     
         git commit -m "Initial commit"
     
-    f ) Pushed the commit
-    
-        git push -u origin master
+   

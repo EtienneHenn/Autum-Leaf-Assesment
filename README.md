@@ -8,6 +8,10 @@ Thank you for allowing me to complete this assessment.
 It was a lot of fun taking on these tasks you supplied.
 I hope I have fulfilled them to your standards. 
 
+Installed vim as an editor
+
+        sudo apt install vim
+
 **Tasks Handled:**
 1)  **Question 1**
 

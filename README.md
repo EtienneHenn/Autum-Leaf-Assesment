@@ -124,12 +124,12 @@ Vim as an editor
 
 5)  **Question 5**
     
-    a ) Created a git directory
+    a ) Created a Git directory
     
         mkdir git_envirinment
         cd git_envirinment
     
-    b ) Initiate git for this folder
+    b ) Initiate Git for this folder
     
         git init
         
@@ -144,5 +144,9 @@ Vim as an editor
     e ) Commit files to remote repository
     
         git commit -m "Initial commit"
+        
+     f ) Pushed the files to GitHub
+     
+        git push -u origin master
     
    

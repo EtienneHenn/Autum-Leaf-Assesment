@@ -8,7 +8,29 @@ Thank you for allowing me to complete this assessment.
 It was a lot of fun taking on these tasks you supplied.
 I hope I have fulfilled them to your standards. 
 
-Installed vim as an editor
+Installing the prerequisite
+
+Python
+
+        sudo apt install python3
+        
+Pip python package manger
+
+        sudo apt install python3-pip
+
+Pytest library
+
+        sudo pip install pytest
+
+Requests library
+
+        sudo pip install requests
+
+Docker
+
+        sudo apt install dockeer.io
+
+Vim as an editor
 
         sudo apt install vim
 
@@ -20,10 +42,12 @@ Installed vim as an editor
 
 2)  **Question 2**
 
-    a )  Running question2 through pytest results in a failure message.
+    a )  Running question2.py through pytest results in a failure message.
         Thus, I changed the value of inc() from 3 to 4 in order for the function to succeed and saved the file as answer2.
         
     b )  *Images included as proof*
+    
+        
 
 3)  **Question 3**
 

@@ -143,7 +143,7 @@ Vim as an editor
         
     e ) Commit files to remote repository
     
-        git commit -m "Initial commit"
+        git commit -m "This is my final commit"
         
      f ) Pushed the files to GitHub
      

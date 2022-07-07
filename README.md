@@ -129,6 +129,6 @@ Vim as an editor
         mkdir git_envirinment
         cd git_envirinment
     
-    b )Used git to upload to github
+    b ) Used git to upload to github
     
         git push -u origin master

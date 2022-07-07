@@ -85,11 +85,11 @@ Vim as an editor
     
         time_lapse += web_object.elapsed.total_seconds()
         
-     h ) Added a print function that prints the websites response time and formated it to display to the 6th decimal
+     h ) Added a print function that prints the websites response time and formatted it to display to the 6th decimal
         
         print("Website response time: " + str(time_lapse) + " seconds")
         
-     i ) Added a print function that prints the functions response time and formated it to display to the 6th decimal
+     i ) Added a print function that prints the functions response time and formatted it to display to the 6th decimal
         
         print(f"Function response time: {end - start:0.6f} seconds")
         

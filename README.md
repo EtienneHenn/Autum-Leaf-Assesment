@@ -124,10 +124,11 @@ Vim as an editor
 
 5)  **Question 5**
     
-    a ) Created a git repo
+    a ) Created a git directory
     
-        code
+        mkdir git_envirinment
+        cd git_envirinment
     
     b )Used git to upload to github
     
-        code
+        git push -u origin master

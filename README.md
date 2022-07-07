@@ -14,7 +14,7 @@ Python
 
         sudo apt install python3
         
-Pip python package manger
+Pip python package manager
 
         sudo apt install python3-pip
 
@@ -43,7 +43,7 @@ Vim as an editor
 2)  **Question 2**
 
     a )  Running question2.py through pytest results in a failure message.
-        Thus, I changed the value of inc() from 3 to 4 in order for the function to succeed and saved the file as answer2.
+        Thus, I changed the value of inc() from 3 to 4 for the function to succeed and saved the file as answer2.
         
     b )  *Images included as proof*
     
@@ -61,7 +61,7 @@ Vim as an editor
         import time
         import os
         
-    c )  Define a function that takes a int(NUM) and a str(URL) variable
+    c )  Define a function that takes an int(NUM) and an str(URL) variable
     
         def response_time(NUM, URL):
     
@@ -69,42 +69,42 @@ Vim as an editor
     
         time_lapse = 0.0
     
-    e )  Included a time method from the time library to record the functions time elapsed
+    e )  Included a time method from the time library to record the function time elapsed
         
         start = time.time()
         ***
         end = time.time()
     
-    f )  Created a for loop to iterrate over the request object and assign it to web_object
+    f )  Created a for loop to iterate over the request object and assign it to web_object
         
         for i in range(int(NUM)):
 
             web_object = requests.get(str(URL))
     
-    g )  Assigned a compound assignment operator to the time_lapse variable in order to get the sum of the total seconds for the time elapsed
+    g )  Assigned a compound assignment operator to the time_lapse variable to get the sum of the total seconds for the time elapsed
     
         time_lapse += web_object.elapsed.total_seconds()
         
-     h ) Added a print function that prints the websites response time and formated it to display to the 6th desimal
+     h ) Added a print function that prints the websites response time and formated it to display to the 6th decimal
         
         print("Website response time: " + str(time_lapse) + " seconds")
         
-     i ) Added a print function that prints the functions response time and formated it to display to the 6th desimal
+     i ) Added a print function that prints the functions response time and formated it to display to the 6th decimal
         
         print(f"Function response time: {end - start:0.6f} seconds")
         
-     j ) Call the funtion with environment variables from the os library read from the dockerfile
+     j ) Call the function with environment variables from the os library read from the dockerfile
         
         response_time(os.environ['NUM'], os.environ['URL'])
         
 
 4)  **Question 4**
 
-    a ) Created an docker file
+    a ) Created a docker file
         
         vim dockerfile
     
-    b )
+    b ) Docker file content with the environment variables
         
         FROM python:latest
 

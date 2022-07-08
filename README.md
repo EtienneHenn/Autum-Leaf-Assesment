@@ -1,4 +1,4 @@
-# Autum-Leaf-Assesment
+# Autum-Leaf-Assessment
 
 Hello viewer :)
 
@@ -147,6 +147,6 @@ Vim as an editor
         
      f ) Pushed the files to GitHub
      
-        git push -u origin master
+        git push -u origin main
     
    

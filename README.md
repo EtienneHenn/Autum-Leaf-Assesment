@@ -147,6 +147,6 @@ Vim as an editor
         
      f ) Pushed the files to GitHub
      
-        git push -u origin main
+        git push origin main
     
    

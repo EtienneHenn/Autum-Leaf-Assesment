@@ -126,8 +126,8 @@ Vim as an editor
     
     a ) Created a Git directory
     
-        mkdir git_envirinment
-        cd git_envirinment
+        mkdir git_environment
+        cd git_environment
     
     b ) Initiate Git for this folder
     
@@ -137,7 +137,7 @@ Vim as an editor
     
         git remote add origin https://github.com/EtienneHenn/Autum-Leaf-Assesment.git
     
-    d ) Add files to git 
+    d ) Add files to Git 
     
         git add .
         

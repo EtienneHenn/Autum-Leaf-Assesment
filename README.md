@@ -114,9 +114,9 @@ d ) Run the docker image
     sudo docker run pythonbuild
 5) Question 5
 
-a ) Clone bit bucket repository
+a ) Clone GitHub repository
 
-    git clone https://EtienneHenn@bitbucket.org/etiennehenn/autumleafassessment.git
+    git clone https://github.com/EtienneHenn/Autum-Leaf-Assesment.git
 
 b ) Add files to Git
 

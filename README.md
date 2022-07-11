@@ -20,7 +20,7 @@ Requests library
     sudo pip install requests
 Docker
 
-    sudo apt install dockeer.io
+    sudo apt install docker.io
 Vim as an editor
 
     sudo apt install vim

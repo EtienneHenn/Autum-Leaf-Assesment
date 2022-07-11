@@ -111,7 +111,7 @@ c ) Build the docker image
 
 d ) Run the docker image
 
-    sudo docker run pythonbuild
+    sudo docker run pythonbuild:0.0.1
 5) Question 5
 
 a ) Clone GitHub repository

@@ -24,16 +24,19 @@ Docker
 Vim as an editor
 
     sudo apt install vim
-Tasks Handled: 1) Question 1
+Tasks Handled: 
+1) Question 1
 
 a )  The counter variable was not included in the scope of the function.
   Thus, I added the "global counter" to correct this error.
+  
 2) Question 2
 
 a )  Running question2.py through pytest results in a failure message.
     Thus, I changed the value of inc() from 3 to 4 for the function to succeed and saved the file as answer2.
 
 b )  *Images included as proof*
+
 3) Question 3
 
 a )  Created a python script named response_time.py
@@ -81,6 +84,7 @@ g )  Assigned a compound assignment operator to the time_lapse variable to get t
  j ) Call the function with environment variables from the os library read from the dockerfile
 
     response_time(os.environ['NUM'], os.environ['URL'])
+    
 4) Question 4
 
 a ) Created a docker file
@@ -112,6 +116,7 @@ c ) Build the docker image
 d ) Run the docker image
 
     sudo docker run pythonbuild:0.0.1
+    
 5) Question 5
 
 a ) Clone GitHub repository

@@ -24,7 +24,8 @@ Docker
 Vim as an editor
 
     sudo apt install vim
-Tasks Handled: 
+Tasks Handled:
+
 1) Question 1
 
 a )  The counter variable was not included in the scope of the function.

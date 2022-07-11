@@ -107,7 +107,7 @@ b ) Docker file content with the environment variables
 
 c ) Build the docker image
 
-    sudo docker image build -t pythonbuild /home/"insert user name here"/autumleafassessment
+    sudo docker image build -t pythonbuild:0.0.1 /home/"insert user name here"/autumleafassessment
 
 d ) Run the docker image
 
